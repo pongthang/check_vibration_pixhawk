@@ -31,4 +31,7 @@ Source code is available at https://github.com/PX4/PX4-Autopilot.git
 * Move the sticks of the RC transmitter to change the motor number. According to the motor number, different motors can be tested.
 * Lower the throttle. Then move the roll stick to extreme right. Now increase the throttle.  You will see the motor corresponding to the stick will start rotation.
 * Similary lower the throttle and change to other motor by moving the sticks other than throttle. And repeat the process.
+<p>
+Check the value of the vibration in z-axis . For good vibration , the value must vary from 9 to 10 only or 9 to 10.5.
+Reduce your drone vibration by balancing the propellers or tighten loose parts. 
 </p>
