@@ -1,0 +1,12 @@
+menuconfig EXAMPLES_CHECK_VIBRATION
+	bool "check_vibration"
+	default n
+	---help---
+		Enable support for check_vibration
+
+// menuconfig USER_CHECK_VIBRATION
+// 	bool "motor_test running as userspace module"
+// 	default y
+// 	depends on BOARD_PROTECTED && EXAMPLES_CHECK_VIBRATION
+// 	---help---
+// 		Put check_vibration in userspace memory
